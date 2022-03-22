@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "info": " artist/ group from the US",
+        "answer": ["eminem",
+            "Nirvana",
+            "Black Sabbath","Elvis presley",
+            "Jimmy Hendrix",
+            "Taylor Swift","Janis Joplin",
+            "James Brown", 
+            "Ray Charles", 
+            "Stevie Wonder",
+            "Tupac Shakur","Drake","Tracy Chapman", 
+            "The cranberries", "snoop dog", 
+            "Nicki Minaj", 
+            "mac miller"  ]
+    },
+
+    {
+        "id": 2,
+        "info": " the artist/ group from the UK",
+        "answer": ["The beatles","ABBA","Phil Collins","Queen","ABBA","Fleetwood Mac","Harry Styles","ed sheran","one direction","spice girls","little mix"]
+       
+    },
+
+    {
+        "id": 3,
+        "question": "he/she a solo artist",
+        "answer":  ["eminem","Taylor Swift","Phil Collins","Jimmi Hendrix","Janis Joplin","James Brown","Ray Charles","Stevie Wonder",
+            "Tupac Shakur", 
+            "The weeknd",
+            "Justin Bieber",
+            "Harry Styles", 
+            "Adele", 
+            "Bryan Adams", 
+            "Avril Lavigne", 
+            "Céline Dion", 
+            "Drake",
+            "ed sheran", "Tracy Chapman","phil collins", 
+            "dua lipa", 
+            "Alicia Cara","snoop dog", 
+            "Nicki Minaj", 
+            "mac miller" 
+        ]
+           
+    },
+
+    {
+        "id": 4,
+        "info":"the artist is canadien ",
+        "answer":["The weeknd","Justin Bieber","Bryan Adams","Avril Lavigne","Céline Dion","Drake","Alicia Cara"]
+    },
+    
+    {
+        "id":5,
+        "info":"female artists",
+        "answer":["Adele","Alicia Cara","Avril Lavigne","Céline Dion","dua lipa","Janis Joplin","Nicki Minaj","Taylor Swift","Tracy Chapman"]
+    },
+    {
+        "id":6,
+        "info":"male artists",
+        "answer":["Bryan Adams","Drake","ed sheran","Elvis presley","eminem","Harry Styles","James Brown","Jimmi Hendrix","mac miller","Phil Collins",
+        "Ray Charles","snoop dog","Tupac Shakur","The weeknd","Stevie Wonder"]
+    },
+    {
+        "id":7,
+        "info":"artists of the 2000s",
+        "answer":["Adele","Alicia Cara","Avril Lavigne","Drake","dua lipa","ed sheran","eminem","Harry Styles","Justin Bieber","mac miller","Nicki Minaj",
+        "The weeknd","Taylor Swift","snoop dog","one direction","Phil Collins"]
+    },
+    {
+        "id":8,
+        "info":"artists of the 90s",
+        "answer":["Bryan Adams","Céline Dion","Tupac Shakur","The cranberries","snoop dog","Phil Collins","Nirvana","Jimmi Hendrix","Janis Joplin",
+        "Black Sabbath","spice girls"]
+
+        },
+        {
+            "id":9,
+            "info":"groups",
+            "answer":["ABBA","The cranberries","Black Sabbath","Fleetwood Mac","The beatles","spice girls","Nirvana","Queen","one direction","little mix"]
+        },
+        {
+            "id":10,
+            "info":"white artists",
+            "answer":["Avril Lavigne","eminem","Taylor Swift","adele","Bryan Adams","Justin Bieber","mac miller"]
+        },
+        {
+            "id":11,
+            "info":"black artists",
+            "answer":["Jimmi Hendrix","James Brown","Ray Charles","Stevie Wonder",
+            "Tupac Shakur","The weeknd","Drake","Tracy Chapman","snoop dog","Nicki Minaj"]
+        },
+        {
+            "id":12,
+            "info":"rap singers",
+            "answer":["eminem","Tupac Shakur","Drake","snoop dog","Nicki Minaj","mac miller"]
+        },
+        {
+            "id":13,
+            "info":"pop artists",
+            "answer":["ABBA","Adele","Queen","Fleetwood Mac","Taylor Swift","The weeknd",
+            "Justin Bieber","Harry Styles","Bryan Adams","Céline Dion","ed sheran","spice girls","little mix"]
+        }
+
+]
+  
+
+
