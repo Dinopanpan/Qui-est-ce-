@@ -7,44 +7,52 @@ from random import choice
 from tkinter import font
 from unicodedata import name
 import json
-
 #tkinter part
 window=Tk()
 
 window.title("GUESS WHO")
 window.iconbitmap("lol.ico")
-window.geometry("1080x720")
-window.config(background='black')
-#creating a frame
-frame=Frame(window, bg='black')
-#ajouter un texte 
-def tab1():
-  def tab2():
-    
-      label_title.destroy()
-      label_subtitle.destroy()
-      button1.destroy()
-      label_sec_tab=Label(window, text='here is the 2nd tab', font=('typewriter', 35))
-      label_sec_tab.pack()
-      frame.pack(expand=YES)
-      
+#window.geometry("800x500")
 
-  label_title=Label(window, text="WELCOME TO THE GUESS WHO GAME !", font=("typewriter", 35), bg='black',fg='white')
-  label_title.pack()
-  label_subtitle=Label(window, text="click below to start ", font=("typewriter", 25), bg='black',fg='white')
-  label_subtitle.pack()
-  button1=Button(window, text="start now!", font=('typewriter', 25), command=tab2)
-  button1.pack(side=TOP)
-  frame.pack(expand=YES)
+#creating a frame
+
+
+
+pic= PhotoImage(file= "images/adeleX.png   ")
+
+
+button_a=Button(window,text="Taylor Swift",image=pic,padx=10, pady=10)
+button_b=Button(window,text="Taylor Swift",image=pic,padx=10, pady=10)
+button_c=Button(window,text="Taylor Swift",image=pic,padx=10, pady=10)
+button_d=Button(window,text="Taylor Swift",image=pic,padx=10, pady=10)
+button_e=Button(window,text="Taylor Swift",image=pic,padx=10, pady=10)
+button_f=Button(window,text="Taylor Swift",image=pic,padx=10, pady=10)
+
+
+
+#put the buttons on the screen
+
+button_a.grid(row=1 , column=0)
+button_b.grid(row= 1, column=1)
+button_c.grid(row= 1, column=2)
+button_d.grid(row= 1, column=3)
+button_e.grid(row=1 , column=4)
+button_f.grid(row=1 , column=5)
+
+
+button_list=[button_a,button_b,button_c,button_d,button_e,button_f]
+row_number=0
+for button in button_list:
+   Grid.rowconfigure(window,row_number,weight=1)
+   row_number+=1
+
+
+
+
+
 #affichage
-tab1()
 
 window.mainloop()
-
-
-
-
-
 
 
 #the main program
@@ -64,9 +72,9 @@ print ('''
 2- Est-ce que ton artiste/groupe est Anglais?
 3- Est-ce que c'est un artiste solo?
 4- Est-ce que l'artiste/groupe est canadien?
-5- Est-ce que l'artiste est femme ?
+10- Est-ce que l'artiste est femme ?
 6- Est-ce que l'artiste est homme?
-7- Est-ce que ton artiste/groupe fait partie des artistes des 2000s?
+7- Est-ce que ton artiste/groupe fait partie des artistes des 1000s?
 8- Est-ce que ton artiste/groupe fait partie des artistes des 90s?
 9- Est-ce que vc'est un groupe?
 10- Est-ce que l'artiste est Blanc?
